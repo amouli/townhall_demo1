@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>townhall_demo</artifactId>
+	<artifactId>demo_townhall</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
@@ -17,9 +17,8 @@
 		<mule.maven.plugin.version>3.2.7</mule.maven.plugin.version>
 	<munit.version>2.2.1</munit.version>
     </properties>
-   
 
-<build>
+	<build>
 		<plugins>
 			         <plugin>
             <groupId>org.mule.tools.maven</groupId>
