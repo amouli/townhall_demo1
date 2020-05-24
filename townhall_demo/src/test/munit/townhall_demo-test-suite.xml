@@ -8,7 +8,7 @@
 		http://www.mulesoft.org/schema/mule/munit http://www.mulesoft.org/schema/mule/munit/current/mule-munit.xsd
 		http://www.mulesoft.org/schema/mule/munit-tools  http://www.mulesoft.org/schema/mule/munit-tools/current/mule-munit-tools.xsd">
 	<munit:config name="townhall_demo-test-suite.xml" />
-	<munit:test name="townhall_demo-test-suite-townhall_demoFlowTest" doc:id="81355e40-da42-47a1-8608-ed8cc1ac3e70" description="Test">
+	<munit:test name="cicd-townhall_demo-test-suite" doc:id="81355e40-da42-47a1-8608-ed8cc1ac3e70" description="Test">
 		<munit:execution >
 			<flow-ref doc:name="Flow-ref to townhall_demoFlow" doc:id="3742082d-c30f-4845-82ef-da90979838ac" name="townhall_demoFlow"/>
 		</munit:execution>
