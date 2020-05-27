@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>demo_townhall</artifactId>
+	<artifactId>townhall_demo</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
@@ -41,7 +41,7 @@
                   <muleVersion>${app.runtime}</muleVersion>
                           
         
-                  <applicationName>demo-presentation</applicationName>
+                  <applicationName>demo-presentations</applicationName>
                   <uri>https://anypoint.mulesoft.com</uri>
                           
                   <username>mouli15</username>
